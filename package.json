@@ -1,0 +1,16 @@
+{
+  "name": "auth-api-ai-version",
+  "version": "1.0.0",
+  "description": "AI-generated version of the Supabase-secured auth API, for comparison against the hand-built one",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.116.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
